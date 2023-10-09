@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+}
+
+header{
+    height: 10rem;
+    width: 100%;
+    background: #F8F0E5;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 0.2rem solid #0F2C59;
+    
+
+}
+
+.box1{
+    height: 7.5rem;
+    width: 15rem;
+    background: #EADBC8;
+    margin-left: 4rem;
+    
+    
+}
+
+.box2{
+    height: 7.5rem;
+    width: 15rem;
+    background: #EADBC8;
+    margin-left: 4rem;
+    
+}
+
+.button{
+     height: 7.5rem;
+     width: 15rem;
+     background: none;
+     margin-left: 4rem;
+     border: none;
+     font-size: 3rem;
+     cursor: pointer;
+}
+
+.button:hover{
+    color: red;
+}
+
+main{
+    display: flex;
+    height: 70rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    
+
+}
+
+.card > img{
+    height: 20rem;
+    width: 20rem;
+   
+}
